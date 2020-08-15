@@ -16,9 +16,16 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation:  It can access internal because a function can reach out to grab a variable that's in the outer scope
 
 
 /* Task 2: Counter */
 
 /* Create a function called `sumation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+function sumation(num) {
+  let sum = 0;
+  for (let i = 0; i <= num; i++) {
+    console.log( sum += i)
+  }
+}

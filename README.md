@@ -26,13 +26,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+The forEach() method returns undefined and map() returns a new array with the transformed elements. Even if they do the same job, the returning value remains different
+
 2. Explain the difference between a callback and a higher order function.
+
+a higher order function is a function that operates on other functions (callback) by either taking them as arguments or returning them.
 
 3. What is closure?
 
+When you use closures for data privacy, the enclosed variables are only in scope within the containing (outer) function. You can't get at the data from an outside scope except through the object's privileged methods
+
 4. Describe the four rules of the 'this' keyword.
 
+  1. Window/Global Object binding - the value of "this" is referred to the window
+  2. Implicit binding - the value of "this" is referred to the object that "this" was attached to 
+  3. New binding - the value of "this" will refer to the new object that was created from the constructor function
+  4. Explicit binding - the value of "this" will refer to the object that was explicitly defined from the call or apply method.
+
 5. Why do we need super() in an extended class?
+
+the super keyword is used as a “function” which calls the parent class and passes it to the child class
 
 ### Task 1 - Project Set up
 
